@@ -1,14 +1,22 @@
 [tool.poetry]
-name = "helloflask"
+name = "meteor"
 version = "0.1.0"
-description = "Hello World with Flask and Docker"
-authors = ["Samuel Bancal <Samuel.Bancal@epfl.ch>"]
+description = "Meta learning for earth observation across different resolutions"
+authors = ["Marc Russwurm, marc.russwurm@epfl.ch"]
 license = "MIT"
 
 [tool.poetry.dependencies]
 python = "^3.8"
 Flask = "^2.1.2"
 gunicorn = "^20.1.0"
+scikit-image = "^0.19.2"
+numpy = "^1.22.4"
+pandas = "^1.4.2"
+torch = "1.9.1"
+torchmeta = "1.8.0"
+torchvision = "0.10.1"
+rasterio = "^1.2.10"
+waitress = "^2.1.2"
 
 [tool.poetry.dev-dependencies]
 flake8 = "^4.0.1"
